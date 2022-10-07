@@ -1,7 +1,8 @@
 #define _POSIX_C_SOURCE 200809L
-#include <stdio.h>
 #include "monty.h"
 
+/*int getline(char **buffer, size_t *, FILE *file);*/
+int status = 0;		/* global var declaration */
 bus_t bus = {NULL, NULL, NULL, 0};
 
 /**
